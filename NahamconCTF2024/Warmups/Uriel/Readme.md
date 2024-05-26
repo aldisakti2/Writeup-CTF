@@ -12,6 +12,7 @@ URL encode :
  66 6c 61 67 7b 38 65 66 65 62 36 36 61 37 31 39 62 37 35 61 34 62 37 63 36 33 34 64 38 38 35 37 38 38 64 66 63 7d
 
  **Decode hex**:
+ 
  ![Screenshot 2024-05-26 200259](https://github.com/aldisakti2/Writeup/assets/106227122/718972af-1417-4a41-8496-d381de7d8641)
 
  
