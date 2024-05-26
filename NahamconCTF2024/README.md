@@ -1,6 +1,8 @@
-Team: TuraTuru
-Member:
-1. Mamah aku takut (Capt)
-2. Justnotsec
-3. xsa
+# Team: TuraTuru
+## Member:
+<ol>
+  <li>Mamah aku takut (Capt)</li>
+  <li>Justnotsec</li>
+  <li>xsa</li>
+</ol>
 
