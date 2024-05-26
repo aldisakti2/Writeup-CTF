@@ -12,7 +12,7 @@ Pada soal ini kita diberikan file `thebox` yang merupakan file compiled script P
 File ini jika kita coba lihat isinya maka kita dapat melihat bahwa program memiliki fitur `help`. Dan bila kita coba lihat salah satu opsi yang bisa kita tambahkan di belakang `thebox` adalah `--target dir`. Opsi tersebut memungkinkan kita menentukan target direktori untuk tempat file hasil ekstrak dari `thebox` akan disimpan.
 ![](img/img-2.png)
 
-Kita dapat coba menjalankan `sh thebox --target output` sehingga nantinya file embedded dari `thebox` akan tersimpan pada folder `output`.
+Kita dapat coba menjalankan `sh thebox --target output` sehingga nantinya file embedded dari `thebox` akan tersimpan pada folder `output`.<br/>
 ![](img/img-3.png)
 
 Sambil tetap menjalankan `thebox` kita dapat cek isi dari folder `output`.
