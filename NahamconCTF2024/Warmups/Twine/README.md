@@ -1,16 +1,16 @@
 
-<img src="chall/twine.jpg" alt="Attachment" width="200" />
+![](img/Screenshot1.png) <br/>
 Kami di berikan sebuah chall yaitu gambar di atas
 dan kami disuruh mencari FLAG nya, maka langkah yang kami lakukan pertama, adalah melihat file tersebut
 lalu kami membongkar gambar itu menggunakan binwalk
-dengan hasil
+dengan hasil. <br/>
 
-<img src="img/Screenshot 2024-05-26 184002.png" alt="Attachment" width="200" />
+![](img/Screenshot2.png)
 
 Terlihat di atas terdapat 2 file yang dimana ada file 0 dan 870E
 lalu kami lihat file nya menggunakan strings
-dan hasil nya seperti ini
-<img src="img/Screenshot 2024-05-26 184704.png" alt="Attachment" width="200" />
+dan hasil nya seperti ini.
+![](img/Screenshot3.png)
 
 Maka kami simpulkan flag nya adalah
 
