@@ -1,0 +1,6 @@
+We must determine if it is safe to open the box...
+What is the pin code?1234
+Looks good to me...
+I guess I'll generate a flag
+flag{da0a0a25f5b35fbf99e3351997bfc4c8}
+Signal caught, cleaning up
