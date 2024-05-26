@@ -94,5 +94,5 @@ print(''.join(result))
 
 Note: Nilai N dan C didapat dari koneksi `nc <ip server> <port server>` yang disediakan dari soal. <br/>
 
-Voila kita berhasil mendapatkan data flag.
+Voila kita berhasil mendapatkan data flag.<br/>
 ![](img/img-2.png)
