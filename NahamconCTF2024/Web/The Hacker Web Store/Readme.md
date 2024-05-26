@@ -38,6 +38,7 @@
 ![image](https://github.com/aldisakti2/Writeup/assets/106227122/7e93442a-f6eb-4992-87a1-0534d3116d9a)
 
 **Ternyata di enkripsi menggunakan pbkdf2-sha256 website_admin_account,pbkdf2:sha256:600000$MSok34zBufo9d1tc$b2adfafaeed459f903401ec1656f9da36f4b4c08a50427ec7841570513bf8e57**
+
 **Kita bisa men-decrypt dengan (https://github.com/AnataarXVI/Werkzeug-Cracker) dan wordlist yang diberikan**
 
 
