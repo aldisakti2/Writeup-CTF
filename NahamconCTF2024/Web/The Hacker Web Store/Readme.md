@@ -1,4 +1,5 @@
-![image](https://github.com/aldisakti2/Writeup/assets/106227122/2ee11b2c-c2ea-47a9-ab46-a23250d52f28)![image](https://github.com/aldisakti2/Writeup/assets/106227122/ad7498a1-3944-46d4-b45b-38cd31f730b5)
+
+![image](https://github.com/aldisakti2/Writeup/assets/106227122/ad7498a1-3944-46d4-b45b-38cd31f730b5)
 
 **Pada chall kali ini kita diberikan wordlist (pasti brute-force) namun tidak boleh brute-force di login, berarti ada hal lain :)**
 
