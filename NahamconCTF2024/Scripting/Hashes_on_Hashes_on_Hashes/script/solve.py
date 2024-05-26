@@ -1,9 +1,7 @@
 from hashlib import md5
 
+data = open('../chall/decryption_server.log', 'r').readlines()
 
-data = open('decryption_server.log', 'r').readlines()
-
-#print(len(data))
 digests = []
 tmp = []
 for line in data:
