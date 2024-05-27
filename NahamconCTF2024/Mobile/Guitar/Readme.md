@@ -1,3 +1,12 @@
+# Guitar
+## Description
+50 points - Mobile - 335 Solves - easy
+Author: @matlac
+
+Have you ever wanted to play the guitar on your phone? Here's a free app, with all guitar strings included for free!
+
+## Solution
+
 ![image](https://github.com/aldisakti2/Writeup/assets/106227122/0513c6a7-39ba-4125-b89c-14c7d99e9e43)
 
 **Saya menggunakan Android Studio, untuk mendapat flag cukup mudah yaitu me-Run aplikasi dan cari hal yang menarik, secret string contohnya:**

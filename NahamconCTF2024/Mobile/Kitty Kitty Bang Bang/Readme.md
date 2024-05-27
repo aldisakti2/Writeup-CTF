@@ -1,3 +1,11 @@
+# Kitty Kitty Bang Bang
+## Description
+50 points - Mobile - 303 Solves - easy
+Author: @matlac
+
+I found a cool android app to play with a cowboy cat! There's has to be more going on with the app I can't see on my screen...
+
+## Solution
 ![image](https://github.com/aldisakti2/Writeup/assets/106227122/0770d8ff-9ee9-4160-a746-7e7af2440fc8)
 
 
