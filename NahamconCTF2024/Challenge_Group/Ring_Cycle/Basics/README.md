@@ -17,7 +17,7 @@ Oleh karena itu kita coba buka pseudocode dari function `check`.<br/>
 Dari function tersebut terlihat bahwa input pengguna nantinya akan di tukar - tukar posisi karakter nya hingga sesuai dengan karakter pembandingnya yaitu `eyrnou jngkiaccre af suryot arsto  tdyea rre aouY`.
 ![](img/img-3.png)
 
-Kita dapat me rekonstruksi fungsi `check` ke dalam bahasa program lain semisal python lalu melakukan brute forcing karakter yang mungkin akan menjadi susunan yang di inginkan oleh program. Berikut ini script python nya.
+Kita dapat me rekonstruksi fungsi `check` ke dalam bahasa program lain semisal python lalu menggunakan algoritma pada fungsi check secara terbalik untuk mendapatkan susunan text valid untuk di inputkan nantinya. Berikut ini script python nya.
 ```python
 def check_reverse(s2):
     for k in range(0, len(s2)-2, 2):
