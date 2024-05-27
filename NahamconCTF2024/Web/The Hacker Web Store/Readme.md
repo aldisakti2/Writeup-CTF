@@ -1,4 +1,13 @@
+# Hacker Web Store
+## Description
+183 points - Web - 254 Solves - medium
+Author: @Jstith
 
+Welcome to the hacker web store! Feel free to look around at our wonderful products, or create your own to sell.
+
+This challenge may require a local password list, which we have provided below. Reminder, bruteforcing logins is not necessary and against the rules.
+
+## Solution
 ![image](https://github.com/aldisakti2/Writeup/assets/106227122/ad7498a1-3944-46d4-b45b-38cd31f730b5)
 
 **Pada chall kali ini kita diberikan wordlist (pasti brute-force) namun tidak boleh brute-force di login, berarti ada hal lain :)**
