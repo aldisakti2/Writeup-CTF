@@ -1,3 +1,11 @@
+# Buggy Jumper 1
+## Description
+412 points - Mobile - 134 Solves - easy
+Author: @matlac
+
+Buggy Jumper is a new mobile game that can be enjoyable for both gamers and hackers! There's a lot going on, can you get some of game's source code to see whats happening behind the scenes?
+
+## Solution
 ![image](https://github.com/aldisakti2/Writeup/assets/106227122/053b88c3-0119-459a-b370-f59d76c215aa)
 
 **Identifikasi aplikasi dengan melihat Android-Manifest**

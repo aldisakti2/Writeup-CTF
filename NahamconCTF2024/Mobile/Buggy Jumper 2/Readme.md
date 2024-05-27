@@ -1,3 +1,13 @@
+# Buggy Jumper 2
+## Description
+442 points - Mobile - 109 Solves - medium
+Author: @matlac
+
+Buggy really wants the drip in the shop... Can you buy it for them?
+<br/>
+<strong>Use the same file from Buggy Jumper 1.</strong>
+
+## Solution
 ![image](https://github.com/aldisakti2/Writeup/assets/106227122/e97843ce-1dc4-4545-8a56-ede239fab990)
 
 
