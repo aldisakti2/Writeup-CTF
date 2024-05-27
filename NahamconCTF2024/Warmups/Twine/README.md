@@ -1,4 +1,11 @@
+# Twine
+## Description
+50 points - Warmups - 1736 Solves - easy
+Author: @JohnHammond#6971
 
+Google tells me that twine means: "strong thread or string consisting of two or more strands of hemp, cotton, or nylon twisted together."
+
+## Solution
 ![](img/Screenshot1.png) <br/>
 Kami di berikan sebuah chall yaitu gambar di atas
 dan kami disuruh mencari FLAG nya, maka langkah yang kami lakukan pertama, adalah melihat file tersebut

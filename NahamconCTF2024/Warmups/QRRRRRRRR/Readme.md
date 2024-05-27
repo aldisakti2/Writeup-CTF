@@ -1,3 +1,11 @@
+# QRRRRRRR
+## Description
+50 points - Warmups - 1209 Solves - easy
+Author: @JohnHammond
+
+Wait a second, they made QR codes longer!?!
+
+## Solution
 ![Screenshot 2024-05-26 191247](https://github.com/aldisakti2/Writeup/assets/106227122/0674d86b-8035-4e81-bc4d-7ff357800149)
 
 Chall diatas berisi gambar mirip QR namun panjang (bisa dilihat dibawah ini)  dan bisa disebut qMQR . Chall ini bisa diselesaikan menggunakan APP "Scandit Demo" yang ada di Play Store 
