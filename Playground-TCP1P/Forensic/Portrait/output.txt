@@ -1,0 +1,330 @@
+vim qr.txt
+
+:norm 170i@
+
+...............................[ESC]:go 171
+
+[ESC]i
+
+[ESC]:go 342
+
+[ESC]i
+
+[ESC]:go 513
+
+[ESC]i
+
+[ESC]:go 684
+
+[ESC]i
+
+[ESC]:go 855
+
+[ESC]i
+
+[ESC]:go 1026
+
+[ESC]i
+
+[ESC]:go 1197
+
+[ESC]i
+
+[ESC]:go 1368
+
+[ESC]i
+
+[ESC]:go 1539
+
+[ESC]i
+
+[ESC]:go 1710
+
+[ESC]i
+
+[ESC]:go 1881
+
+[ESC]i
+
+[ESC]:go 2052
+
+[ESC]i
+
+[ESC]:go 2223
+
+[ESC]i
+
+[ESC]:go 2394
+
+[ESC]i
+
+[ESC]:go 2565
+
+[ESC]i
+
+[ESC]:go 2736
+
+[ESC]i
+
+[ESC]:go 2907
+
+[ESC]i
+
+[ESC]:go 3078
+
+[ESC]i
+
+[ESC]:go 3249
+
+[ESC]i
+
+[ESC]:go 3420
+
+[ESC]i
+
+[ESC]:go 3591
+
+[ESC]i
+
+[ESC]:go 3762
+
+[ESC]i
+
+[ESC]:go 3933
+
+[ESC]i
+
+[ESC]:go 4104
+
+[ESC]i
+
+[ESC]:go 4275
+
+[ESC]i
+
+[ESC]:go 4446
+
+[ESC]i
+
+[ESC]:go 4617
+
+[ESC]i
+
+[ESC]:go 4788
+
+[ESC]i
+
+[ESC]:go 4959
+
+[ESC]i
+
+[ESC]:go 5130
+
+[ESC]i
+
+[ESC]:go 5301
+
+[ESC]i
+
+[ESC]:call cursor(2,103)
+
+R [ESC]:call cursor(18,72)
+
+Ra[ESC]:call cursor(14,102)
+
+Ra[ESC]:call cursor(4,148)
+
+R [ESC]:call cursor(21,71)
+
+Ra[ESC]:call cursor(11,143)
+
+Rc[ESC]:call cursor(21,114)
+
+R [ESC]:call cursor(27,105)
+
+Rc[ESC]:call cursor(30,39)
+
+Rc[ESC]:call cursor(15,130)
+
+Ra[ESC]:call cursor(22,96)
+
+Ra[ESC]:call cursor(10,38)
+
+Rc[ESC]:call cursor(25,13)
+
+Ra[ESC]:call cursor(7,91)
+
+R [ESC]:call cursor(17,76)
+
+R [ESC]:call cursor(19,22)
+
+Rb[ESC]:call cursor(23,98)
+
+Ra[ESC]:call cursor(20,50)
+
+Ra[ESC]:call cursor(7,26)
+
+Rb[ESC]:call cursor(19,32)
+
+R [ESC]:call cursor(24,144)
+
+R [ESC]:call cursor(4,104)
+
+R [ESC]:call cursor(29,96)
+
+Ra[ESC]:call cursor(28,160)
+
+R [ESC]:call cursor(22,61)
+
+Rc[ESC]:call cursor(20,27)
+
+Ra[ESC]:call cursor(13,144)
+
+R [ESC]:call cursor(18,22)
+
+R [ESC]:call cursor(22,153)
+
+R [ESC]:call cursor(23,44)
+
+R [ESC]:call cursor(14,160)
+
+R           ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b↓
+←                                        ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ↓
+←cabc          abcabcabcabcabcabcabcabc  abcabcabcabc                                          ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ↓
+←      abcabc  abc↓
+←  abcabc  abcabcabcabc↓
+←abc    abcabcabcabc    abc↓
+←abc↓
+←bcabcabc  abcabc    abcabc  abcabc             ↓
+←cabc                        ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ↓
+←abcabcabcabcabcabcabcabcabcabcabcabcabcabc      abcabcabcabcabcabcabcabc  abcabc    abcabcabcabcabcabcab↓
+←abc  abcabc                                             ↓
+←            ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a↓
+←bcabc  abcabc      abcabc    abcabcabcabcabcabc    abcabcabcabc      abcabc    abcabcabcabc                                        ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a↓
+←abcabcabcabcabcabcabcabcabcabcabcabcabcabc  abcabc      abcabcabcabcabcabc  abcabcabcabc  abcabc      abcabcabcabc  abcabcabcabcabcabcabcabc                              [ESC]:call cursor(31,1)
+
+Rabcabc  abcabcabcabcabcabc  abcabc    a[ESC]:call cursor(30,38)
+
+Rb←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a↑
+←abcabc  abcabcabcabcabcabc  abcabc  abcabcabcabcabcabc      abcabcabcabc      abcabc  abcabcabc↑
+←cabc  abc↓
+←bcabcabcabcabcabcabcabcabcabcabc                        [ESC]:call cursor(29,102)
+
+Ra←←c←←b←←a←←c←←b[ESC]:call cursor(28,94)
+
+Rb←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a[ESC]:call cursor(28,170)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←← ↑
+←          [ESC]:call cursor(27,160)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a[ESC]:call cursor(25,1)
+
+Rabcabcabcabc↑
+←abc          abcabcabcabc  abcabcabcabcabcabc  abcabcabcabcabcabc  abcabcabcabc  abca↓
+←bcabcabcabcabcabcabcabcabcabcabcabcabcabc    ab[ESC]:call cursor(25,95)
+
+Ra←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b[ESC]:call cursor(23,94)
+
+Rc←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ↑
+←abcabc  abcabcab[ESC]:call cursor(21,48)
+
+Rc←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a↓
+←abcabcabcabcabcabc  abcabc    abcabc  abcabc[ESC]:call cursor(23,43)
+
+R ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a↓
+←abcabc  abc[ESC]:call cursor(20,1)
+
+R  abcabcabcabcabcabc      ↑
+←c     ↓
+←bc[ESC]:call cursor(20,30)
+
+Ra←←c←←b[ESC]:call cursor(18,31)
+
+R    abcabcabcabcabcabc      abcabc    abc↑
+←cabc ↓
+←ab[ESC]:call cursor(18,74)
+
+Rc←←b[ESC]:call cursor(16,75)
+
+R    abcabc  abcabc  abcabcabcabcabcabcabcabc  abcabc    [ESC]:call cursor(15,129)
+
+Rc←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ↓
+←      abcabcabcabcabcabc      abcabc    abcabcabcabcabcabc          abcabc[ESC]:call cursor(17,70)
+
+Rb←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a↓
+←abcabcabcabc  abcabc ↓
+←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← [ESC]:call cursor(18,23)
+
+Rabcabc  [ESC]:call cursor(19,25)
+
+Rb←←a←←c[ESC]:call cursor(14,1)
+
+R  abcabc    abcabcabcabc  abcabcabcabc  abcabc  abcabc        abcabc      abcabc  abcabc    abcabcabc↑
+←abcabcabcabc      abcabcabcabc             ↓
+←                 ↑
+←            ↑
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ↓
+←abcabc        abcabcabcabc    abcabcabcabc    abcabcabcabc  abcabcabcabc  abcabc      abcabcabcabc  [ESC]:call cursor(11,1)
+
+Rabcabc  abcabc  abcabcabcabcabcabc  abcabcabcabc    abcabc  abcabc      abcabc  abcabc  abcabcabcabcabcabcabcabcabcabc    abcabcabcabcabcabcab↑
+←                             ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a[ESC]:call cursor(9,170)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a↓
+←abcabc      abcabcabcabc        abcab[ESC]:call cursor(8,1)
+
+R                abcabcabcabc    abcabc  abcabc        abcabc      abcabc                                                                                                  ↑
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ↑
+←abc          abcabc                                                            ↑
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a↓
+←abcabc          abcabc    abcabc  abcabc  abcabcabcabc      abcabc  abcabc    abcabc    abc[ESC]:call cursor(7,90)
+
+Rc←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c[ESC]:call cursor(7,25)
+
+Ra←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a[ESC]:call cursor(4,1)
+
+Rabcabc  abcabcabcabcabcabc  abcabc      abcabcabcabc    abcabcabcabc  abcabc  abcabcabcabcabcabc       ↑
+←  abcabc  abcabcabcabcabcabc  abcabc                                ↓
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← [ESC]:call cursor(2,170)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ↑
+←   abcabc        abcabcabcabcabcabcabcabcabcabcabcabcabcabc        [ESC]:call cursor(1,103)
+
+R ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a↓
+←abcabc          abcabc        abcabcabcabcabcabcabcabcabcabc      abcabcabcabcabcabc    abcabc  abcabc↓
+← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a[ESC]:call cursor(4,147)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a[ESC]:call cursor(10,39)
+
+R      abcabc        abcabc  abcabc          abcabcabcabc  abcabcabcabcabcabc                           [ESC]:call cursor(13,145)
+
+R              [ESC]:call cursor(14,142)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b[ESC]:call cursor(22,62)
+
+Rabc  abc[ESC]:call cursor(24,170)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ↑
+←                          ↑
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ↑
+←                 ↑
+← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←←c←←b[ESC]:call cursor(21,72)
+
+Rbcabc  abcabcabcabc    abcabc      abcabc ↓
+←abcabcabcabc    abcabc                  ↑
+←  [ESC]:call cursor(21,151)
+
+R ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←← ←← ←← ←← [ESC]:call cursor(23,144)
+
+R ←← ←← ←← ←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←←c←←b←←a←← ←← ←← ←← ←← ←← ←←c←←b↑
+←        abcabc[ESC]:call cursor(22,98)
+
+Rc←←b[ESC]:wq
+
+sed "s/a/\xe2/g;s/b/\x96/g;s/c/\x88/g" qr.txt

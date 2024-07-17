@@ -1,0 +1,18 @@
+D:\Document (Aldi)\Catatan-Konfig\Cybersecurity\Playground TCP1P\CRYPTO - Hash 3 Collision>ncat 172.188.90.64 21001
+
+        =================WELCOME=================
+        1. Login
+        2. Exit
+        =========================================
+
+>> 1
+Username: user1
+Password: }}}}}}9aaaaaaaaaaaaa
+Login successful!
+
+        ===========WELCOME BACK, USER============
+        1. Get Flag
+        2. Logout
+        =========================================
+
+>> 1
