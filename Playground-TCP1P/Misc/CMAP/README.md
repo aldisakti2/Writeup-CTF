@@ -13,7 +13,7 @@ Hint: `A single-font may come with multiple encoding tables to ensure compatibil
 
 ### Apa itu CMAP ?
 
-<div style="text-align: justify">Merujuk dari <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/cmap">Microsoft</a>, CMAP merupakan <i>`character to glyph index mapping table`</i> yang bertujuan sebagai sebuah tabel yang memetakan karakter kode ke index glyph. Singkatnya, CMAP ini membantu sebuah dokumen ataupun software apapun yang ingin memetakan sebuah kode karakter ke sebuah karakter tertentu baik yang dapat tercetak (printable) maupun tidak (inprintable). Sebutan glyph index sendiri lebih ke arah indexing dari kode - kode karakter, semisal karakter `a` memiliki kode karakter `0x41` yang disesuaikan dengan kode ASCII dan lain sebagainya. Tujuan lainnya dari CMAP ini agar setiap file maupun dokumen yang dibuat dapat terbaca atau kompatibel ketika dibuka dalam perangkat dengan settingan default yang berbeda. <br/><br/>
+Merujuk dari <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/cmap">Microsoft</a>, CMAP merupakan <i>`character to glyph index mapping table`</i> yang bertujuan sebagai sebuah tabel yang memetakan karakter kode ke index glyph. Singkatnya, CMAP ini membantu sebuah dokumen ataupun software apapun yang ingin memetakan sebuah kode karakter ke sebuah karakter tertentu baik yang dapat tercetak (printable) maupun tidak (inprintable). Sebutan glyph index sendiri lebih ke arah indexing dari kode - kode karakter, semisal karakter `a` memiliki kode karakter `0x41` yang disesuaikan dengan kode ASCII dan lain sebagainya. Tujuan lainnya dari CMAP ini agar setiap file maupun dokumen yang dibuat dapat terbaca atau kompatibel ketika dibuka dalam perangkat dengan settingan default yang berbeda. <br/><br/>
 
 Sebagai contoh, bila kita mengetik sesuatu dengan bahasa arab maka nantinya karakter kode dalam bahasa arabdi sebuah dokumen. Maka nantinya bahasa arab di dokumen tersebut perlu dipahami juga oleh perangkat lain yang nantinya akan membukanya sehingga dapat dipahami maksud isi dokumen itu. Cara agar hal ini dapat berjalan yaitu dengan adanya `mapping character` salah satunya dengan `CMAP`. Selain `CMAP` masih ada lagi metode atau teknik `mapping character` lain namun kita tidak bahas disini. <br/>
 
@@ -23,11 +23,11 @@ Dokumen terutama `docx` sebetulnya merupakan sebuah archive file yang didalamnya
 
 2. File `fontTable.xml` di folder `word` dan `fontTable.xml.rels` di folder `word/_rels` yang digunakan untuk mapping kode ID Fonts yang ada di folder `word/fonts`
 
-File fonts yang ada di folder `word/fonts` sendiri berisikan `file odttf`.</div>
+File fonts yang ada di folder `word/fonts` sendiri berisikan `file odttf`.
 
 ### Apa itu ODTTF ?
 
-<div style="text-align: justify">Mengacu pada penjelasan <a href="https://en.wikipedia.org/wiki/ODTTF">Wikipedia</a>, ODTTF (Ofbuscated OpenType) merupakan embedded font file yang telah di kacaukan (obfuscated) urutan (subset) font dari font dokumen asli. Singkatnya, file `ttf asli` di acak atau dapat juga dikatakan di `encode` isi nya sehingga menjadi file berbentuk `odttf`. Cara dari file `ttf` berubah jadi `odttf` sendiri itu sebagai berikut:
+Mengacu pada penjelasan <a href="https://en.wikipedia.org/wiki/ODTTF">Wikipedia</a>, ODTTF (Ofbuscated OpenType) merupakan embedded font file yang telah di kacaukan (obfuscated) urutan (subset) font dari font dokumen asli. Singkatnya, file `ttf asli` di acak atau dapat juga dikatakan di `encode` isi nya sehingga menjadi file berbentuk `odttf`. Cara dari file `ttf` berubah jadi `odttf` sendiri itu sebagai berikut:
 
 1. Generate sebuah uniq ID yang disebut <i>Globally Unique Identifier</i> (GUID) yang biasanya digenerate secara random ataupun bisa juga menggunakan info dari file aslinya.
 
@@ -37,11 +37,11 @@ File fonts yang ada di folder `word/fonts` sendiri berisikan `file odttf`.</div>
 
 4. Update pemetaaan file fonts di document dan fontTable XML.
 
-Dengan informasi cara kerja ODTTF itu kita bisa mendapatkan kembali (deobfuscate) file font aslinya.</div>
+Dengan informasi cara kerja ODTTF itu kita bisa mendapatkan kembali (deobfuscate) file font aslinya.
 
 ## Solution
 
-<div style="text-align: justify">Untuk soal ini sendiri kita dapat deobfuscate file `odttf` dengan bantuan dari github repository ini.
+Untuk soal ini sendiri kita dapat deobfuscate file `odttf` dengan bantuan dari github repository ini.
 
 ![](img/info-1a.png)
 
@@ -197,7 +197,6 @@ Lalu kita jalankan saja dan kita terjemahkan susunan hex itu ke bentuk bytes dat
 12. Voila, setelah mampir ke link `google drive` nya kita akan dapati flag disitu.
 
 ![](img/step-11.png)
-</div>
 
 #### Solving By: [Mamah Aku Takut](https://github.com/Stayhere0-1)
 #### Writeup Written By: [xsa](https://github.com/aldisakti2)
