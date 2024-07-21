@@ -13,7 +13,7 @@ Hint: `A single-font may come with multiple encoding tables to ensure compatibil
 
 ### Apa itu CMAP ?
 
-<div style="text-align: justify">Merujuk dari <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/cmap">Microsoft</a>, CMAP merupakan <i>`character to glyph index mapping table`</i> yang bertujuan sebagai sebuah tabel yang memetakan karakter kode ke index glyph. Singkatnya, CMAP ini membantu sebuah dokumen ataupun software apapun yang ingin memetakan sebuah kode karakter ke sebuah karakter tertentu baik yang dapat tercetak (printable) maupun tidak (inprintable). Sebutan glyph index sendiri lebih ke arah indexing dari kode - kode karakter, semisal karakter `a` memiliki kode karakter `0x41` yang disesuaikan dengan kode ASCII dan lain sebagainya. Tujuan lainnya dari CMAP ini agar setiap file maupun dokumen yang dibuat dapat terbaca atau kompatibel ketika dibuka dalam perangkat dengan settingan default yang berbeda. <br/>
+<div style="text-align: justify">Merujuk dari <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/cmap">Microsoft</a>, CMAP merupakan <i>`character to glyph index mapping table`</i> yang bertujuan sebagai sebuah tabel yang memetakan karakter kode ke index glyph. Singkatnya, CMAP ini membantu sebuah dokumen ataupun software apapun yang ingin memetakan sebuah kode karakter ke sebuah karakter tertentu baik yang dapat tercetak (printable) maupun tidak (inprintable). Sebutan glyph index sendiri lebih ke arah indexing dari kode - kode karakter, semisal karakter `a` memiliki kode karakter `0x41` yang disesuaikan dengan kode ASCII dan lain sebagainya. Tujuan lainnya dari CMAP ini agar setiap file maupun dokumen yang dibuat dapat terbaca atau kompatibel ketika dibuka dalam perangkat dengan settingan default yang berbeda. <br/><br/>
 
 Sebagai contoh, bila kita mengetik sesuatu dengan bahasa arab maka nantinya karakter kode dalam bahasa arabdi sebuah dokumen. Maka nantinya bahasa arab di dokumen tersebut perlu dipahami juga oleh perangkat lain yang nantinya akan membukanya sehingga dapat dipahami maksud isi dokumen itu. Cara agar hal ini dapat berjalan yaitu dengan adanya `mapping character` salah satunya dengan `CMAP`. Selain `CMAP` masih ada lagi metode atau teknik `mapping character` lain namun kita tidak bahas disini. <br/>
 
@@ -199,10 +199,10 @@ Lalu kita jalankan saja dan kita terjemahkan susunan hex itu ke bentuk bytes dat
 ![](img/step-11.png)
 </div>
 
-#### Solving By: NotSec
-#### Writeup Written By: xsa
+#### Solving By: [Mamah Aku Takut](https://github.com/Stayhere0-1)
+#### Writeup Written By: [xsa](https://github.com/aldisakti2)
 
-Reference:
+### Reference:
 - https://gist.github.com/dungsaga/ab8d2379bb566c9925b27df3bc82ca8b [deobfuscate python]
 - https://github.com/fonttools/fonttools/tree/main [ttx for converting OpenType into TrueType in XML Format]
 - https://opensource.apple.com/source/enscript/enscript-11.1/enscript/koi8.txt.auto.html
