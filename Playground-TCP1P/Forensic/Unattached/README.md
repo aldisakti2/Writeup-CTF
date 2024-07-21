@@ -47,7 +47,7 @@ note: ini gunakan script generate.sh
 9. kalau sudah, tinggal jalankan `git show --full-diff` untuk melihat perbedaan di setiap commit nya
 10. gunakan script get_flag.sh untuk mendapatkan flag nya.
 
-## Notes: Jalankan setiap script sesuai dengan letak folder dan file yang digunakan dalam script.
+#### Notes: Jalankan setiap script sesuai dengan letak folder dan file yang digunakan dalam script.
 
-### FLAG: TCP1P{c4rving_a_nameles5_g1t_obj3ct_ins1de_pdf}
+#### FLAG: TCP1P{c4rving_a_nameles5_g1t_obj3ct_ins1de_pdf}
 
