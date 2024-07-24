@@ -9,7 +9,7 @@ disini saya menyadari ada yang janggal pada header dari request nya
 
 yaitu
 
-..gambar
+![gambar](./image.png)
 
 lalu saya kumpulin informasi tersebut dan ternyata hasil dari informasi tersebut adalah flag nya
 
