@@ -3,7 +3,7 @@ yang di buka menggunakan wireshark
 
 Saya mencoba analyz melihat protocol hierarchy nya, dan melihat ada sebuah protocol HTTP
 
-lalu saya coba follow untuk protocol HTTP nya, karna saya sudah penasaran dengan protocol tersebut wkwk
+lalu saya coba follow untuk protocol HTTP/TCP nya, karna saya sudah penasaran dengan protocol tersebut wkwk
 
 disini saya menyadari ada yang janggal pada header dari request nya
 
