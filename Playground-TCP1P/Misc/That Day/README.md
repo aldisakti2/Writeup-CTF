@@ -47,47 +47,47 @@ Karena sudah valid terdapat akses ke `kubelet API` kita dapat mengikuti langkah 
 
 1. Dari info di link <a href="https://www.deepnetwork.com/blog/2020/01/13/kubelet-api.html">ini.</a> Ada banyak path yang bisa digunakan pada `kubelet API`, salah satunya `/pods` yang digunakan untuk menampilkan informasi mengenai `pods` yang di deploy pada node.
 
-![](img/step-2.png)
+    ![](img/step-2.png)
 
 2. Kalau kita eksplor informasi yang ditampilkan maka ada beberapa info penting seperti `kube secrets` dan `nama container` web ini yaitu `situs-diriku`.
 
-![](img/info-2.png)
+    ![](img/info-2.png)
 
 3. Objek `secrets` khususnya pada `kube secrets` itu digunakan untuk menyimpan data rahasia seperti `kredensial` dan juga `Token key`. Namun agar kita bisa akses `secrets`, kita perlu akses ke shell terlebih dulu. Agar bisa berinteraksi dengan server lewat `kubelet` maka kita bisa memakai `kubeletctl` dari github <a href="https://github.com/cyberark/kubeletctl">ini.</a>
 
-![](img/step-3.png)
+    ![](img/step-3.png)
 
 4. Kita hanya perlu instalasi tools `kubeletctl` sesuai arahan pada github repository tersebut.
 
-![](img/info-5.png)
+    ![](img/info-5.png)
 
 5. Kalau sudah di install, kita dapat langsung coba lihat informasi pods dengan perintah `kubelet pods --server foryou.lychnobyte.my.id`.
 
-![](img/step-4.png)
+    ![](img/step-4.png)
 
 6. Dari informasi yang ditampilkan, kita dapat gunakan info itu untuk menjalankan shell command pada container yang kita inginkan. Cukup dengan memasukan perintah `kubeletctl exec "<command nya>" --server foryou.lychnobyte.my.id --container situs-diriku --pod <nama pods nya> --namespace jakarta`. Contoh untuk command `ls` maka akan seperti ini.
 
-![](img/step-5.png)
+    ![](img/step-5.png)
 
 7. Selanjutnya, untuk dapat akses shell server. Kita dapat gunakan saja perintah `bash` untuk akses ke shell `bash` nya.
 
-![](img/step-6.png)
+    ![](img/step-6.png)
 
 8. Setelah masuk ke server, kita perlu menggunakan `kubectl` untuk berinteraksi ke setiap objek di Kubernetes cluster. Tapi sayangnya, `kubectl` belum terinstall. Oleh karena itu kita install saja mengikuti step di link <a href="https://github.com/matt-bentley/KubernetesHackDemo#kubectl">ini.</a>
 
-![](img/info-3.png)
+    ![](img/info-3.png)
 
 9. Kemudian, agar bisa akses informasi `kube secrets` kita memerlukan `token`. Info token sendiri terletak di file `/var/run/secrets/kubernetes.io/serviceaccount/token` sesuai info dari path `/pods` sebelumnya.
 
-![](img/info-2.png)
+    ![](img/info-2.png)
 
 10. Langsung saja kita list semua `kube secrets` yang ada dengan perintah `kubectl --token=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token) get secrets`. Dari hasil tersebut didapati ada `secrets` bernama `secret-diriku` dan bila kita lihat isinya dengan perintah `kubectl --token=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token) get secret secret-diriku -o yaml` kita bisa dapati sebuah teks ter encode base64 disitu.
 
-![](img/step-7.png)
+    ![](img/step-7.png)
 
 11. Terakhir, kita decode saja teks mencurigakan itu dan voila flag didapatkan.
 
-![](img/step-8.png)
+    ![](img/step-8.png)
 
 ## Catatan
 Untuk mencegah kerentanan ini terjadi, sebetulnya kita bisa melakukan beberapa hal:
