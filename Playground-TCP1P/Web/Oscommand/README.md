@@ -38,20 +38,28 @@ Connect: <a href="http://172.188.90.64:6779">http://172.188.90.64:6779</a>
 
     ![](Image/Step-3.PNG)
 
-10. Karena payload sebelumnya berhasil, kita coba lihat di root directory.
+   <strong>Payload: </strong> \`ls\`
+
+11. Karena payload sebelumnya berhasil, kita coba lihat di root directory.
 
     ![](Image/Payload-2.PNG)
 
     ![](Image/Step-4.PNG)
 
-11. Ternyata ada folder yang menyimpan `flag.txt`. Kalau kita coba lihat pakai command `cat` nantinya hanya akan muncul blank output saja yang nandain kalau command tidak berjalan (entah di blokir atau tidak ada command nya).
+    <strong>Payload: </strong> \`ls$IFS/\`
+
+12. Semisal kita lihat isi directory mencurigakan tadi (sup3rsecr3td1rectory) maka kita akan melihat adanya file `flag.txt`. Kalau kita coba lihat pakai command `cat` nantinya hanya akan muncul blank output saja yang nandain kalau command tidak berjalan (entah di blokir atau tidak ada command nya).
 
     ![](Image/Payload-3.PNG)
 
     ![](Image/Step-5.PNG)
 
-12. Agar kita bisa melihat isi file `flag.txt`, kita bisa manfaatkan command lain yang digunakan untuk melihat file yaitu `more`.
+    <strong>Payload: </strong> \`cat$IFS/sup3rsecr3td1rectory/flag.txt\`
+
+14. Agar kita bisa melihat isi file `flag.txt`, kita bisa manfaatkan command lain yang digunakan untuk melihat file yaitu `more`.
 
     ![](Image/Payload-4.PNG)
 
     ![](Image/Step-6.PNG)
+
+    <strong>Payload: </strong> \`more$IFS/sup3rsecr3td1rectory/flag.txt\`
