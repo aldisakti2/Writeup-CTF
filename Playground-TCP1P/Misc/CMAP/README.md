@@ -114,89 +114,89 @@ Selanjutnya untuk mendapatkan flagnya dilakukan dengan step berikut:
 
 3. Nantinya kita bisa nge-list metode mapping karakter apa saja yang tersedia dari si file ttf nya seperti ini.
 
-![](img/step-2.png)
+    ![](img/step-2.png)
 
 4. Dari info itu kita tau kalau `cmap` menjadi salah satu opsi pemetaan (mapping) yang bisa kita pilih. Langsung saja kita convert `file ttf` pakai tools `ttx` nya.
 
-![](img/step-3.png)
+    ![](img/step-3.png)
 
-Kalau mau otomatis bisa pakai ini juga.
+    Kalau mau otomatis bisa pakai ini juga.
 
-![](img/step-4.png)
+    ![](img/step-4.png)
 
 5. Setelah itu kita bisa cek deh satu - satu `file font ttx` nya dan cari apakah ada yang mencurigakan. Dari ketujuh file itu ada satu file yang mencurigakan yaitu `font7.ttx`. Mencurigakan karena ada banyak karakter yang hasil atau maksud karakter mapping nya itu disembunyikan dengan tanda tanya (?). Kalau di file lain (font1 sampai font6 ttx) yang hanya ada di dua karakter saja tapi file `font7.ttx` punya banyak karakter.
 
-![](img/step-5.png)
+    ![](img/step-5.png)
 
 6. Jika diperhatikan lagi, karakter yang mapping karakternya disembunyikan artinya di `font7.ttx` itu mirip seperti susunan `PNG Magic Header`.
 
-![](img/info-3b.png)
+    ![](img/info-3b.png)
 
 7. Dari informasi itu kita dapat ambil kesimpulan kalau kode karakter di `font7.ttx` itu nantinya perlu kita susun ke susunan hex karakter file PNG. Namun, sebelum itu perlu diperhatikan kalau di dalam file `font7.ttx` terdapat `lebih dari satu skema cmap` dan `hanya ada satu skema cmap` yang dipakai yaitu skema `cmap yang pertama muncul` (ini setelah diperiksa lagi, cuman skema cmap pertama yang menghasilkan bentuk file PNG sementara yang lainnya tidak). Jadi kita bisa fokus konversi ke file PNG nya dari skema cmap pertama dari file `font7.ttx`. Kita bisa filter dengan perintah berikut.
 
-```bash
-cat custom-font7.ttx| cut -d ' ' -f9 | tr -d '/><!--' | grep name | cut -d '=' -f2 > filter-font7.ttx
-```
+    ![](img/step-7.png)
 
-![](img/step-7.png)
+    <strong>Command: </strong>
+    ```bash
+    cat custom-font7.ttx| cut -d ' ' -f9 | tr -d '/><!--' | grep name | cut -d '=' -f2 > filter-font7.ttx
+    ```
 
 8. Lalu untuk kode - kode karakter yang ada seperti 'estimated', 'eight', 'nine', dan lain sebagainya dapat kita terjemahkan menggunakan panduan repository github <a href="https://github.com/djimenezjerez/correspondencia/blob/03fc279390739c6cb26aee9476299b1c55a84252/storage/fonts/arial_normal_08f09e2808a3424021e41c433cb63fde.ufm.php">ini.</a> Dari panduan itu untuk angka di sebelah kiri adalah angka decimalnya dan jika ingin tau karakter string apa yang dihasilkan dapat dengan python `chr(8494)` untuk contoh kode `estimated` dengan angka decimal nya `8494`.
 
 9. Kemudian untuk memperoleh file PNG nya dari kode mapping nya tadi. Kita dapat menyusun susunan karakter berdasarkan urutan yang diberkan dari `font7.ttx` sehingga bisa menjadi susunan hex karakter. Untuk mempercepat itu kita bisa pakai script `extract.py`.
 
-```python
-map_key = {
-    'zero': 0x0, #0
-    'onesuperior': 0x1, #1
-    'twosuperior': 0x2, #2
-    'threesuperior': 0x3, #3
-    'four': 0x4, #4
-    'five': 0x5, #5
-    'six': 0x6, #6
-    'seven': 0x7, #7
-    'eight': 0x8, #8
-    'nine': 0x9, #9
-    'afii10065': 'a', #a
-    'afii10094': 'b', #b
-    'afii10083': 'c', #c
-    'd': 'd', #d
-    'estimated': 'e', #e
-    'f': 'f', #f
-}
+    ```python
+    map_key = {
+      'zero': 0x0, #0
+      'onesuperior': 0x1, #1
+      'twosuperior': 0x2, #2
+      'threesuperior': 0x3, #3
+      'four': 0x4, #4
+      'five': 0x5, #5
+      'six': 0x6, #6
+      'seven': 0x7, #7
+      'eight': 0x8, #8
+      'nine': 0x9, #9
+      'afii10065': 'a', #a
+      'afii10094': 'b', #b
+      'afii10083': 'c', #c
+      'd': 'd', #d
+      'estimated': 'e', #e
+      'f': 'f', #f
+    }
 
-data = open("filter-font7.ttx","r").readlines()
+    data = open("filter-font7.ttx","r").readlines()
 
-result = ""
+    result = ""
 
-fail = []
+    fail = []
 
-for x in data:
-    try:
-        result += str(map_key[x.strip()])
-    except:
-        fail.append(x)
-        continue
+    for x in data:
+        try:
+            result += str(map_key[x.strip()])
+        except:
+            fail.append(x)
+            continue
 
 
-print(result)
+    print(result)
+    ```
 
-```
+    Lalu kita jalankan saja dan kita terjemahkan susunan hex itu ke bentuk bytes data dengan perintah `xxd -r -p` kemudian di save ke file `output.png`
 
-Lalu kita jalankan saja dan kita terjemahkan susunan hex itu ke bentuk bytes data dengan perintah `xxd -r -p` kemudian di save ke file `output.png`
-
-![](img/step-8.png)
+    ![](img/step-8.png)
 
 10. Kemudian kita akan dapati sebuah hasil file png yang menampilkan QR Code.
 
-![](img/step-9.png)
+    ![](img/step-9.png)
 
 11. Jika kita extract atau scan qr code nya semisal pakai tools `zbarimg` nantinya akan mengarahkan kita ke link `google drive` ini.
 
-![](img/step-10.png)
+    ![](img/step-10.png)
 
 12. Voila, setelah mampir ke link `google drive` nya kita akan dapati flag disitu.
 
-![](img/step-11.png)
+    ![](img/step-11.png)
 
 #### Solving By: [Mamah Aku Takut](https://github.com/Stayhere0-1)
 #### Writeup Written By: [xsa](https://github.com/aldisakti2)
