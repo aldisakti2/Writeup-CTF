@@ -41,7 +41,7 @@ Step by step:
 
 6. Kita coba ubah saja pakai `hexeditor` menjadi panjang yang sesuai dengan panjang dari nama file yang ditunjukan dari seberapa banyak bytes NULL characternya yaitu 0x1f (31 bytes).
 
-  ![](img/step-3.png)
+    ![](img/step-3.png)
 
 7. Lalu kita save dan kita cek lagi dengan `zipdetails`. Yup, file ZIP berhasil diperbaiki.
   ![](img/step-4.png)
@@ -50,9 +50,9 @@ Step by step:
 
 9. Setelah itu akan didapati bahwa jenis file adalah `docx`. Kita tinggal buka saja dengan program yang sesuai (misal: Microsoft Word). Flag pun didapatkan.
 
-  ![](img/step-6.png)
+    ![](img/step-6.png)
 
-  ![](img/step-7.png)
+    ![](img/step-7.png)
 
 ## Referensi
 * https://ctftime.org/writeup/36731
