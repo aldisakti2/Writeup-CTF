@@ -31,11 +31,11 @@ Step by step:
   *  Blok kesembilan (warna orange): Panjang Nama File <i>(0xffff = 65535 karakter)</i>
   *  Blok kesepuluh (warna kuning) : Panjang blok tambahan <i>(0x00 = 0)</i>
   *  Blok kesebelas (warna orange) : Nama File (intinya nama file ini tuh NULL yang byte nya 0x01 di kasus soal ini). Nah, soal panjang pendeknya itu sebenernya ngikutin info dari `blok kesembilan` namun karena ini corrupt jadi kita bisa jadikan ini sebagai clue.
-  *  Blok kesepulu (warna kuning)  : Aslinya di file ini tuh ngga ada field/blok tambahan, tapi kalau ada maka panjang bytes nya akan sesuai dengan info di blok kesepuluh. (yang digambar itu contoh aja semisal ada maka disitu posisi bloknya)
+  *  Blok kesepuluh (warna kuning)  : Aslinya di file ini tuh ngga ada field/blok tambahan, tapi kalau ada maka panjang bytes nya akan sesuai dengan info di blok kesepuluh. (yang digambar itu contoh aja semisal ada maka disitu posisi bloknya)
 
-  ![](img/info-1.png)
+    ![](img/info-1.png)
 
-  Note: soal kenapa tulisan hex di `zipdetails` beda sama yang di list tadi itu karena yang list itu make acuan `hexdump` yang formatnya `big-endian` sementara `zipdetails` make format hex `little-endian`.
+    Note: soal kenapa tulisan hex di `zipdetails` beda sama yang di list tadi itu karena yang list itu make acuan `hexdump` yang formatnya `big-endian` sementara `zipdetails` make format hex `little-endian`.
 
 5. Dari informasi file ZIP nya kita bisa curiga kalau corrupt nya terjadi di sektor `panjang nama file`, hal ini karena tidak logis saja jika nama file punya panjang karakter 65535. Terlebih lagi, nama file yang tersedia pada file ZIP saat ini hanya NULL character yang mungkin ditujukan sebagai hint ke panjang aslinya.
 
