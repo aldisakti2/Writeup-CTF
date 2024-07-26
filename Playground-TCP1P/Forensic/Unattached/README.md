@@ -15,39 +15,36 @@ Out of boredom, I accidentally dumped all of my files into this plain-looking PD
 6. generate hash sha1 dari hasil extract zlib
 7. gunakan 2 huruf pertama sebagai nama folder git objects dan sisanya sebagai nama file objek nya.
 
-Contoh:
+   Contoh:
 
-file attached_attachment283 punya hash sha1
-ad18aec1a7aaf65486ee26aa2ad500095d8b7adc
+   file attached_attachment283 punya hash sha1 ad18aec1a7aaf65486ee26aa2ad500095d8b7adc
 
-`ad` => nama folder
+   `ad` => nama folder
 
-`18aec1a7aaf65486ee26aa2ad500095d8b7adc` => nama file
+   `18aec1a7aaf65486ee26aa2ad500095d8b7adc` => nama file
 
-jadikan itu untuk format nama file itu di dalam folder objects pada git
+   jadikan itu untuk format nama file itu di dalam folder objects pada git
 
-`.git/objects/ad/18aec1a7aaf65486ee26aa2ad500095d8b7adc`
+   `.git/objects/ad/18aec1a7aaf65486ee26aa2ad500095d8b7adc`
 
 8. copy file asli dari attachments ke folder sesuai dengan hasil hash file ekstraksinya.
 
-Contoh:
+   Contoh:
 
-file attached_attachment283 itu ada dua:
-- satu yang ada di attachments
-- satu lagi yang hasil ke ekstrak nya (kebetulan ini namanya di setting sama juga namanya)
+   file attached_attachment283 itu ada dua:
+   - satu yang ada di attachments
+   - satu lagi yang hasil ke ekstrak nya (kebetulan ini namanya di setting sama juga namanya)
 
-kita gunakan file hasil ekstrak untuk dapet format nama folder dan file dari hasil sha1sum nya
-dan file asli dari attachments merupakan file yang nantinya bakal diubah nama dan letak foldernya mengikuti
-format nama file dan folder path yang udah didapetin dari hasil file ekstrak
+   kita gunakan file hasil ekstrak untuk dapet format nama folder dan file dari hasil sha1sum nya dan file asli dari attachments merupakan file yang nantinya bakal diubah nama dan letak foldernya mengikuti format nama file dan folder path yang udah didapetin dari hasil file ekstrak.
 
-`cp attachments/attached_attachment283 .git/objects/ad/18aec1a7aaf65486ee26aa2ad500095d8b7adc`
+   `cp attachments/attached_attachment283 .git/objects/ad/18aec1a7aaf65486ee26aa2ad500095d8b7adc`
 
-note: ini gunakan script generate.sh
+   <strong>note: ini gunakan script generate.sh</strong>
 
 9. kalau sudah, tinggal jalankan `git show --full-diff` untuk melihat perbedaan di setiap commit nya
 10. gunakan script get_flag.sh untuk mendapatkan flag nya.
 
-#### Notes: Jalankan setiap script sesuai dengan letak folder dan file yang digunakan dalam script.
+<strong> Notes: </strong>`Jalankan setiap script sesuai dengan letak folder dan file yang digunakan dalam script.`
 
-#### FLAG: TCP1P{c4rving_a_nameles5_g1t_obj3ct_ins1de_pdf}
+<strong>FLAG: </strong>`TCP1P{c4rving_a_nameles5_g1t_obj3ct_ins1de_pdf}`
 
