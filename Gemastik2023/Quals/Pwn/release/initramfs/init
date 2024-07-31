@@ -1,0 +1,35 @@
+#!/bin/sh
+
+[ -d /dev ] || mkdir -m 0755 /dev
+[ -d /sys ] || mkdir /sys
+[ -d /proc ] || mkdir /proc
+[ -d /tmp ] || mkdir -m 1777 /tmp
+
+mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
+mount -t proc -o nodev,noexec,nosuid proc /proc
+mount -t devtmpfs -o nosuid,mode=0755 udev /dev
+mkdir -p /dev/pts
+mount -t devpts -o noexec,nosuid,gid=5,mode=0620 devpts /dev/pts || true
+
+
+chown -R root:root /flag
+chmod 0 /flag
+
+# insmod vuln.ko
+
+modprobe vuln
+mknod -m 666 /dev/vuln c `grep vuln /proc/devices | awk '{print $1;}'` 0
+
+
+chown -R ctf:ctf /home/ctf
+
+cat /etc/issue
+export ENV=/etc/profile
+setsid cttyhack setuidgid ctf /bin/sh
+/bin/dmesg
+
+umount /proc
+umount /sys
+umount /dev
+
+poweroff -d 0 -f

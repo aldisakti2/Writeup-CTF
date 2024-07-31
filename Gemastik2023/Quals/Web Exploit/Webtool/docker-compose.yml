@@ -1,0 +1,17 @@
+version: '2.2'
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+    - MYSQL_ROOT_PASSWORD=redacted
+    - MYSQL_DATABASE=webtool
+    command: --default-authentication-plugin=mysql_native_password
+  web:
+    build: .
+    restart: always
+    mem_limit: 512MB
+    ports:
+    - 10020:8090
+    depends_on:
+    - "db"
