@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  app:
+    build: ./src
+    restart: always
+    ports:
+      - "7716:8080"
+    networks:
+      internal:
+  db:
+    image: mongo:latest
+    restart: always
+    environment:
+      FLAG: flag{redacted}
+    volumes:
+      - "./db/:/docker-entrypoint-initdb.d/:ro"
+    networks:
+      internal:
+networks:
+  internal:
