@@ -1,0 +1,2 @@
+Keyword: Evil Bit IPv4
+Reference: https://blog.benjojo.co.uk/post/evil-bit-RFC3514-real-world-usage

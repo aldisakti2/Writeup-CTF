@@ -1,0 +1,6 @@
+ncat challenges.ctf.compfest.id 20004
+>>>  __doc__[::~False]
+
+rts3tYb_x3dn1{61TSEFPMOC
+>>> safe.__code__.co_consts[True][b'a'[False]^b'q'[False]]
+1ng_g1v3s_1nT_e732bbe217}

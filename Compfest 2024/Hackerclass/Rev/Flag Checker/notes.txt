@@ -1,0 +1,1 @@
+Brute force di setiap if statement, mungkin kalau mau cepat dimulai dari if statement paling pendek ke yang paling panjang.

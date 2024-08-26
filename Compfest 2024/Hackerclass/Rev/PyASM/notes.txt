@@ -1,0 +1,5 @@
+ncat challenges.ctf.compfest.id 20011
+Enter THE password: h3ck3rman
+[110, 97, 109, 114, 51, 107, 99, 51, 104]
+Correct! Here's your flag:
+COMPFEST16{pYth0n_4sm_1s_3z_r1gtH?_6b6241e4c8}

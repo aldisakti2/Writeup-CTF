@@ -1,0 +1,24 @@
+1. Program "prob.py" ini menjalankan perintah 'echo' kesetiap input tapi tidak bisa memasukan karkater alphanumeric (alphabet dan angka). 
+2. Cara bypassnya bisa manfaatin karakter seperti ';' untuk nandain end line untuk command 'echo' dan untuk menjalankan command lain untuk dapetin flagnya bisa manfaatin wildcard kaya "?" dan "*".
+3. Nah, biar presisi untuk milih nama command yang bisa dipake. Kita bisa make wildcard "?". Jadi wildcard "?" itu untuk nge milih setiap value yang sesuai jumlah "?" nya. Misal:
+   
+   Kita punya file "flag.txt", sama "flag-aja". lalu kalau kita coba make "?" di ls
+
+   ls ???.???
+
+   maka nantinya yang kepilih adalah "flag.txt". Jumlah "?" harus sama banyaknya dengan karakter yang ingin dipilih.
+
+4. Dalam hal ini kita bisa panggil shell command langsung dari binary file nya yang ada di "/usr/local/bin" atau di "/usr/bin" atau di "/bin"
+5. Nah, dari hasil coba2 kita bisa nemu kalau binary command tuh ada di folder "/bin" jadi tinggal panggil aja (misal kita panggil cat).
+
+   Command tanpa wildcard:
+
+   /bin/cat flag.txt
+
+   Command dengan wildcard:
+
+   /???/??? ????.???
+
+6. Nah, karena binary file di "/bin" yang jumlah karakter namanya sepanjang 3 karakter itu ngg cuman "cat" jadi nanti akan ada beberapa file command yang jalan juga (ngg cuman command "cat").
+
+7. Finish

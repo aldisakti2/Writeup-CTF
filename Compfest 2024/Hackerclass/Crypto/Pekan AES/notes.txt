@@ -1,0 +1,17 @@
+1. Manfaatin sifat block cipher di AES ECB
+2. Poin utamanya buat dapet ciphertext yang kalau di decrypt bakal ada teks "COMPFEST16" nya.
+3. Buat solve ini kita berarti perlu nge encrypt dulu kata2 "COMPFEST" dan "16" secara terpisah lalu nanti ciphertext nya digabung
+4. Disini kita coba make length input nya 32 buat masing - masing kata.
+
+print("COMPFEST"*4) #COMPFESTCOMPFESTCOMPFESTCOMPFEST
+print("16"*16) #16161616161616161616161616161616
+
+5. Habis itu kita bakal dapet hasil encrypt masing - masing text nya.
+6. Kalau udah kita ambil hasil encrypt "COMPFEST" tanpa padding. Jadi kan nanti hasil encryptnya 96 bytes, yang 32 bytes terakhir itu tuh padding nya. Berarti 32 bytes sebelum padding adalah teks "COMPFEST".
+
+ct1[32:64]
+
+ct2[-32:]
+
+7. Untuk padding di ciphertext untuk "16" itu disertakan biar nanti pas decrypt "unpad" bisa jalan.
+8. Done

@@ -1,0 +1,5 @@
+reference:
+- https://www.onsecurity.io/blog/server-side-template-injection-with-jinja2/
+- https://adragos.ro/securinets-2022/
+- https://jinja.palletsprojects.com/en/3.0.x/templates/
+- https://ctftime.org/writeup/10895

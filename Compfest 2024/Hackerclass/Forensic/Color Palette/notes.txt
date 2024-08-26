@@ -1,0 +1,6 @@
+B6BBB7 734974 AEC8A7 B35777 CB4BAE
+
+
+Color Code (Hex) -> Urutin dari yang paling banyak muncul -> From Hex -> To Base64 -> masukin ke flag format
+
+FLAG: COMPFEST16{tru3c0l0rsins1d3y0uu}

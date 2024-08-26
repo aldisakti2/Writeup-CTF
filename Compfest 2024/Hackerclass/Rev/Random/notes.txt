@@ -1,0 +1,3 @@
+1. Manfaatkan seeding random yaitu integer 16
+2. Brute force random nya (ini possible karena skema random nya bisa menghasilkan value sama seperti pada proses enkripsi dikarenakan ada seeding)
+3. Solve
